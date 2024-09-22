@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+
 h1{
     font-family: "Bungee Tint", sans-serif;
     font-weight: 400;
@@ -5,12 +10,29 @@ h1{
     text-align: center;
 }
 
-p,ul,ol{
-    font-family: "Montserrat", sans-serif;
+h2{
+    font-size: large;
+} 
+
+
+.ingredients{
+    margin-left: 30px;
+    background-color: rgba(65, 173, 173, 0.417);
+    border-radius: 9px;
+    padding: 30px 30px;
+    font-size: 20px;
+    width:700px;
+    margin-bottom: 40px;
+    line-height: 1.9;
 }
 
-h2{
-    font-family: "Montserrat",sans-serif;
-    font-size: large;
+.steps{
+    margin-left: 30px;
+    background-color: rgba(203, 40, 186, 0.085);
+    border-radius: 9px;
+    padding: 30px 30px;
+    font-size: 20px;
+    width:1350px;
+    line-height: 2.9;
 }
 
